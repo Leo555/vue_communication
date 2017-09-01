@@ -4,7 +4,7 @@
     <el-table :data="tableData" stripe border style="width: 100%">
       <el-table-column prop="date" label="日期" width="180" align="left">
       </el-table-column>
-      <el-table-column prop="name" label="姓名" width="180" align="left">
+      <el-table-column prop="name" label="姓名" width="80" align="left">
       </el-table-column>
       <el-table-column prop="msg" label="消息" align="left">
       </el-table-column>
@@ -19,7 +19,7 @@
 
 <script>
   import Emitter from 'element-ui/lib/mixins/emitter'
-  import event from '../mixins/event'
+  import event from 'mixins/event'
 
   export default {
     name: 'hello',

@@ -6,8 +6,8 @@
 </template>
 
 <script>
-  import Hello from './components/Hello'
-  import Fuck from './components/Fuck'
+  import Hello from 'components/Hello'
+  import Fuck from 'components/Fuck'
   import Emitter from 'element-ui/lib/mixins/emitter'
 
   export default {
@@ -49,7 +49,7 @@
   .hello, .fuck {
     width: 45%;
     float: left;
-    padding: 10px 10px 150px 10px;
+    padding: 10px 20px 150px 20px;
   }
 
   .fuck {
